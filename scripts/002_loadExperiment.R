@@ -26,19 +26,19 @@ data_list <- lapply(csv_files, read.csv)
 combined_data <- do.call(rbind, data_list)
 
 cloze <- combined_data |>
-    dplyr::mutate(
-        target = stringr::str_extract_all(
-            text,
-            "(?<=%)[^%]+(?=%)",
-            simplify = TRUE
-        ),
-        response = stringr::str_replace_all(
-            response,
-            pattern = '\\[|\\]|"',
-            replacement = ''
-        )
-    ) |>
-    dplyr::select(
-        -c('study_id', 'session_id')
-    ) |>
-    dplyr::filter(block == "main")
+  dplyr::mutate(
+    target = stringr::str_extract_all(
+      text,
+      "(?<=%)[^%]+(?=%)",
+      simplify = TRUE
+    ),
+    response = stringr::str_replace_all(
+      response,
+      pattern = '\\[|\\]|"',
+      replacement = ''
+    )
+  ) |>
+  dplyr::select(
+    -c('study_id', 'session_id')
+  ) |>
+  dplyr::filter(block == "main")
