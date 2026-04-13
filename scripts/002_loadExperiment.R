@@ -27,11 +27,11 @@ combined_data <- do.call(rbind, data_list)
 
 cloze <- combined_data |>
   dplyr::mutate(
-    target = stringr::str_extract_all(
+    target = as.character(stringr::str_extract_all(
       text,
       "(?<=%)[^%]+(?=%)",
       simplify = TRUE
-    ),
+    )),
     response = stringr::str_replace_all(
       response,
       pattern = '\\[|\\]|"',
@@ -41,4 +41,11 @@ cloze <- combined_data |>
   dplyr::select(
     -c('study_id', 'session_id')
   ) |>
-  dplyr::filter(block == "main")
+  dplyr::filter(block == "main") |>
+  dplyr::mutate(
+    response = stringr::str_to_lower(response),
+    response = stringr::str_replace_all(response, "[[:punct:]]", ""),
+    target = stringr::str_to_lower(target),
+    in_dictionary = response %in% dictionary$entry,
+    lev_dist = stringdist::stringdist(response, target, method = "lv")
+  )

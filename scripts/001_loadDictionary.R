@@ -24,6 +24,3 @@ dictionary <- dictionary |>
     sep = " ",
     na.rm = TRUE
   )
-
-entry <- dictionary |>
-  dplyr::select("entry")

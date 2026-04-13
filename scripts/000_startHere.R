@@ -22,7 +22,10 @@ pkgs <- c(
   "ggplot2",
   "here",
   "remotes",
-  "ggokabeito"
+  "ggokabeito",
+  "stringdist",
+  "yaml",
+  "knitr"
 )
 
 # renv::install(pkgs)
@@ -38,3 +41,6 @@ library(here) # for creating pathways relative to the top-level directory
 library(remotes) # allows accessing github
 # library(joeyr) # needed for the find_outliers function
 library(ggokabeito) # colorblind friendly color based on Okabe-Ito scheme
+library(stringdist) # calculate the orthographic distance from word.
+library(yaml) # parses markdown documents
+library(knitr) # used to create tables in quarto documents

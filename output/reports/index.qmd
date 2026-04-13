@@ -1,0 +1,32 @@
+---
+title: "Analysis of Cloze results"
+format: 
+  html: 
+    toc: true
+    toc-location: right
+    html-math-method: katex
+    number-sections: true
+    other-links: 
+      - text: OSF data raw
+        href: https://osf.io/9vzk4/overview
+bibliography: glottalization.bib
+csl: apa.csl
+---
+
+```{r}
+ 
+```
+
+### Introduction
+
+This page describes the results of a Cloze task, which is a technique in psycholinguistic studies to test for the predictability of words given a specific context [@snellReadersAreParallel2019; @miraultAlgorithmAnalyzingCloze2021]. This task was used to help compare the predictability of the target words used in a reading task about the role surprisal has on the pronunciation of t-glottalization and strengthening [@brinkerhoffTglottalizationStrengtheningAmerican2025]. 
+
+### Data
+#### Sentences
+
+The 
+
+### References
+
+::: {#refs} 
+:::
