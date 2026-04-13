@@ -1,39 +1,39 @@
-"block","response","text","time_elapsed","condition","participant_id","study_id","session_id"
-"practice_a","[""cat""]","The children found the %butter% under the house.","51897","condition_b","30143","",""
-"practice_a","[""picture""]","My teacher drew  a(n)  %ladder% in our class.","59275","condition_b","30143","",""
-"practice_a","[""writer""]","An author is called  a(n)  %writer% sometimes.","63833","condition_b","30143","",""
-"practice_a","[""cans""]","My brother collects %bottles% for recycling.","68892","condition_b","30143","",""
-"practice_b","[""church""]","The children sang at the %battle% last week.","82058","condition_b","30143","",""
-"practice_b","[""picture""]","The man found  a(n)  %fiddle% from Italy.","95164","condition_b","30143","",""
-"practice_b","[""break""]","The child found a way to %whittle% sticks.","108468","condition_b","30143","",""
-"practice_b","[""fly""]","The geese like to %waddle% down to the pond.","112424","condition_b","30143","",""
-"main","[""bear""]","The woods are home to a(n) %elf% since last year.","126558","condition_b","30143","",""
-"main","[""boat""]","The watchman found the %rails% last Friday night.","131720","condition_b","30143","",""
-"main","[""jar""]","He was looking for the %ale% on the shelf.","136600","condition_b","30143","",""
-"main","[""tree""]","I crashed into a(n) %elk% on my way home.","141299","condition_b","30143","",""
-"main","[""science""]","Many children learn about %Britain% in school.","147247","condition_b","30143","",""
-"main","[""sale""]","The store is ready for the %sale% next weekend.","154641","condition_b","30143","",""
-"main","[""latin""]","The Roman people spoke %Latin% in ancient times.","159558","condition_b","30143","",""
-"main","[""door""]","The acrobat landed near the %helm% safely.","165979","condition_b","30143","",""
-"main","[""helpers""]","She will need seven %cartons% by Tuesday.","172384","condition_b","30143","",""
-"main","[""snake""]","The children found  a(n)  %whale% in the backyard.","179948","condition_b","30143","",""
-"main","[""hint""]","The sweater had lovely %buttons% of gold.","184674","condition_b","30143","",""
-"main","[""roses""]","The gardener planted %shells% in the beds.","188991","condition_b","30143","",""
-"main","[""woods""]","The backpacker hiked in the %mountains% last weekend.","193228","condition_b","30143","",""
-"main","[""temperature""]","The doctor checked the child's %health% yesterday.","200450","condition_b","30143","",""
-"main","[""moss""]","The student saw the %cell% with the microscope.","210712","condition_b","30143","",""
-"main","[""belt""]","The man bought a leather %belt% for his pants.","216603","condition_b","30143","",""
-"main","[""story""]","The reporter heard the %tale% about Bigfoot.","221428","condition_b","30143","",""
-"main","[""lozengers""]","My pharmacist used %elm% for the cough drops.","232596","condition_b","30143","",""
-"main","[""trail""]","The hiker found a new %trail% in the woods.","236773","condition_b","30143","",""
-"main","[""cotton""]","The shirt was made of %cotton% rather than wool.","241712","condition_b","30143","",""
-"main","[""bell""]","The baroness rang  a(n)  %bell% for service.","246198","condition_b","30143","",""
-"main","[""bathtub""]","The water splashed in the %fountain% noisely.","258537","condition_b","30143","",""
-"main","[""nails""]","The carpenter hammered the %nail% firmly.","264770","condition_b","30143","",""
-"main","[""wells""]","Texas has many oil %wells% in the fields.","268512","condition_b","30143","",""
-"main","[""neighbor""]","They heard the noise from the %kitten% next door.","274750","condition_b","30143","",""
-"main","[""tools""]","The mechanic found the %kale% in the trunk.","281251","condition_b","30143","",""
-"main","[""dog""]","The children saw the %mittens% on the sofa.","285765","condition_b","30143","",""
-"main","[""mail""]","They received a letter in the %mail% today.","289373","condition_b","30143","",""
-"main","[""people""]","The children saw the %curtains% from outside.","297708","condition_b","30143","",""
-"main","[""egg""]","The woman saw  a(n)  %snail% next to the milk.","310545","condition_b","30143","",""
+block,response,text,time_elapsed,condition,participant_id,study_id,session_id
+practice_a,"[""cat""]",The children found the %butter% under the house.,51897,condition_b,662e89416a1d494ac9e84af3,,
+practice_a,"[""picture""]",My teacher drew  a(n)  %ladder% in our class.,59275,condition_b,662e89416a1d494ac9e84af3,,
+practice_a,"[""writer""]",An author is called  a(n)  %writer% sometimes.,63833,condition_b,662e89416a1d494ac9e84af3,,
+practice_a,"[""cans""]",My brother collects %bottles% for recycling.,68892,condition_b,662e89416a1d494ac9e84af3,,
+practice_b,"[""church""]",The children sang at the %battle% last week.,82058,condition_b,662e89416a1d494ac9e84af3,,
+practice_b,"[""picture""]",The man found  a(n)  %fiddle% from Italy.,95164,condition_b,662e89416a1d494ac9e84af3,,
+practice_b,"[""break""]",The child found a way to %whittle% sticks.,108468,condition_b,662e89416a1d494ac9e84af3,,
+practice_b,"[""fly""]",The geese like to %waddle% down to the pond.,112424,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""bear""]",The woods are home to a(n) %elf% since last year.,126558,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""boat""]",The watchman found the %rails% last Friday night.,131720,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""jar""]",He was looking for the %ale% on the shelf.,136600,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""tree""]",I crashed into a(n) %elk% on my way home.,141299,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""science""]",Many children learn about %Britain% in school.,147247,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""sale""]",The store is ready for the %sale% next weekend.,154641,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""latin""]",The Roman people spoke %Latin% in ancient times.,159558,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""door""]",The acrobat landed near the %helm% safely.,165979,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""helpers""]",She will need seven %cartons% by Tuesday.,172384,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""snake""]",The children found  a(n)  %whale% in the backyard.,179948,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""hint""]",The sweater had lovely %buttons% of gold.,184674,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""roses""]",The gardener planted %shells% in the beds.,188991,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""woods""]",The backpacker hiked in the %mountains% last weekend.,193228,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""temperature""]",The doctor checked the child's %health% yesterday.,200450,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""moss""]",The student saw the %cell% with the microscope.,210712,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""belt""]",The man bought a leather %belt% for his pants.,216603,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""story""]",The reporter heard the %tale% about Bigfoot.,221428,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""lozengers""]",My pharmacist used %elm% for the cough drops.,232596,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""trail""]",The hiker found a new %trail% in the woods.,236773,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""cotton""]",The shirt was made of %cotton% rather than wool.,241712,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""bell""]",The baroness rang  a(n)  %bell% for service.,246198,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""bathtub""]",The water splashed in the %fountain% noisely.,258537,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""nails""]",The carpenter hammered the %nail% firmly.,264770,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""wells""]",Texas has many oil %wells% in the fields.,268512,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""neighbor""]",They heard the noise from the %kitten% next door.,274750,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""tools""]",The mechanic found the %kale% in the trunk.,281251,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""dog""]",The children saw the %mittens% on the sofa.,285765,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""mail""]",They received a letter in the %mail% today.,289373,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""people""]",The children saw the %curtains% from outside.,297708,condition_b,662e89416a1d494ac9e84af3,,
+main,"[""egg""]",The woman saw  a(n)  %snail% next to the milk.,310545,condition_b,662e89416a1d494ac9e84af3,,

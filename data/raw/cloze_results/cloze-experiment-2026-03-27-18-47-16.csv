@@ -1,39 +1,39 @@
-"block","response","text","time_elapsed","condition","participant_id","study_id","session_id"
-"practice_a","[""toy""]","The children found the %butter% under the house.","13702","condition_a","73301","",""
-"practice_a","[""circle""]","My teacher drew  a(n)  %ladder% in our class.","19051","condition_a","73301","",""
-"practice_a","[""writer""]","An author is called  a(n)  %writer% sometimes.","22678","condition_a","73301","",""
-"practice_a","[""cans""]","My brother collects %bottles% for recycling.","27317","condition_a","73301","",""
-"practice_b","[""concert""]","The children sang at the %battle% last week.","38021","condition_a","73301","",""
-"practice_b","[""antique""]","The man found  a(n)  %fiddle% from Italy.","45639","condition_a","73301","",""
-"practice_b","[""break""]","The child found a way to %whittle% sticks.","49813","condition_a","73301","",""
-"practice_b","[""walk""]","The geese like to %waddle% down to the pond.","55264","condition_a","73301","",""
-"main","[""front""]","The sailor stood at the %helm% of the ship.","62718","condition_a","73301","",""
-"main","[""diagram""]","The book had a picture of  a(n)  %cell% in it.","68470","condition_a","73301","",""
-"main","[""book""]","Mary found a new %tale% about zebras.","73329","condition_a","73301","",""
-"main","[""deer""]","The hunters were hunting %elk% this season.","78977","condition_a","73301","",""
-"main","[""man""]","The woman saw the %cotton% yesterday.","82958","condition_a","73301","",""
-"main","[""Europe""]","Prince William returned to %Britain% after his trip.","89584","condition_a","73301","",""
-"main","[""crumbs""]","My table was covered with %mail% from yesterday.","94056","condition_a","73301","",""
-"main","[""curtains""]","The windows need %curtains% to block the sun.","97717","condition_a","73301","",""
-"main","[""mittens""]","The children's hands need %mittens% for the snow.","106857","condition_a","73301","",""
-"main","[""desk""]","The lawyer bought a new %fountain% for the firm.","111437","condition_a","73301","",""
-"main","[""cover""]","The book needs  a(n)  %belt% for decoration.","115991","condition_a","73301","",""
-"main","[""wine""]","The Vikings are drinking %ale% out of horns.","119136","condition_a","73301","",""
-"main","[""kitten""]","The cat feeds her tiny %kittens% with a mouse.","124112","condition_a","73301","",""
-"main","[""clothes""]","I heard about the new %health% fad this week.","129588","condition_a","73301","",""
-"main","[""gardening""]","The man watches shows about %Latin% on YouTube.","136200","condition_a","73301","",""
-"main","[""dragon""]","Many fantasy books contain a(n) %elf% in them.","140566","condition_a","73301","",""
-"main","[""mouse""]","The dog saw  a(n)  %button% next to its dish.","146651","condition_a","73301","",""
-"main","[""tracks""]","The train travels by %rail% to the seaside.","154261","condition_a","73301","",""
-"main","[""drink""]","The parents found  a(n)  %nail% in the cupholder.","158040","condition_a","73301","",""
-"main","[""dog""]","The children saw the %wells% over the ridge.","161012","condition_a","73301","",""
-"main","[""shell""]","The hermit crab needs a new %shell% today.","164511","condition_a","73301","",""
-"main","[""ground""]","The dog sleeps on the %trail% during the day.","168052","condition_a","73301","",""
-"main","[""birds""]","Monterey Bay is home to %whales% in the Spring","174189","condition_a","73301","",""
-"main","[""pizza""]","The French are eating the %snails% at the restaurant","178337","condition_a","73301","",""
-"main","[""carton""]","The school lunch came with snacks and  a(n)  %carton% of milk.","185080","condition_a","73301","",""
-"main","[""fruit""]","The smoothie is made with %kale% from the garden","188032","condition_a","73301","",""
-"main","[""mold""]","The children heard about a(n) %sale% on cheese.","192508","condition_a","73301","",""
-"main","[""outfit""]","The children needed  a(n)  %bell% for the event.","197221","condition_a","73301","",""
-"main","[""tools""]","The carpenter used %elm% for the cabinet.","200459","condition_a","73301","",""
-"main","[""tribes""]","The man learned about the %mountains% in Africa.","204785","condition_a","73301","",""
+block,response,text,time_elapsed,condition,participant_id,study_id,session_id
+practice_a,"[""toy""]",The children found the %butter% under the house.,13702,condition_a,56a68b2d9ce1c0000cf89299,,
+practice_a,"[""circle""]",My teacher drew  a(n)  %ladder% in our class.,19051,condition_a,56a68b2d9ce1c0000cf89299,,
+practice_a,"[""writer""]",An author is called  a(n)  %writer% sometimes.,22678,condition_a,56a68b2d9ce1c0000cf89299,,
+practice_a,"[""cans""]",My brother collects %bottles% for recycling.,27317,condition_a,56a68b2d9ce1c0000cf89299,,
+practice_b,"[""concert""]",The children sang at the %battle% last week.,38021,condition_a,56a68b2d9ce1c0000cf89299,,
+practice_b,"[""antique""]",The man found  a(n)  %fiddle% from Italy.,45639,condition_a,56a68b2d9ce1c0000cf89299,,
+practice_b,"[""break""]",The child found a way to %whittle% sticks.,49813,condition_a,56a68b2d9ce1c0000cf89299,,
+practice_b,"[""walk""]",The geese like to %waddle% down to the pond.,55264,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""front""]",The sailor stood at the %helm% of the ship.,62718,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""diagram""]",The book had a picture of  a(n)  %cell% in it.,68470,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""book""]",Mary found a new %tale% about zebras.,73329,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""deer""]",The hunters were hunting %elk% this season.,78977,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""man""]",The woman saw the %cotton% yesterday.,82958,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""Europe""]",Prince William returned to %Britain% after his trip.,89584,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""crumbs""]",My table was covered with %mail% from yesterday.,94056,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""curtains""]",The windows need %curtains% to block the sun.,97717,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""mittens""]",The children's hands need %mittens% for the snow.,106857,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""desk""]",The lawyer bought a new %fountain% for the firm.,111437,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""cover""]",The book needs  a(n)  %belt% for decoration.,115991,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""wine""]",The Vikings are drinking %ale% out of horns.,119136,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""kitten""]",The cat feeds her tiny %kittens% with a mouse.,124112,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""clothes""]",I heard about the new %health% fad this week.,129588,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""gardening""]",The man watches shows about %Latin% on YouTube.,136200,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""dragon""]",Many fantasy books contain a(n) %elf% in them.,140566,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""mouse""]",The dog saw  a(n)  %button% next to its dish.,146651,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""tracks""]",The train travels by %rail% to the seaside.,154261,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""drink""]",The parents found  a(n)  %nail% in the cupholder.,158040,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""dog""]",The children saw the %wells% over the ridge.,161012,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""shell""]",The hermit crab needs a new %shell% today.,164511,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""ground""]",The dog sleeps on the %trail% during the day.,168052,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""birds""]",Monterey Bay is home to %whales% in the Spring,174189,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""pizza""]",The French are eating the %snails% at the restaurant,178337,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""carton""]",The school lunch came with snacks and  a(n)  %carton% of milk.,185080,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""fruit""]",The smoothie is made with %kale% from the garden,188032,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""mold""]",The children heard about a(n) %sale% on cheese.,192508,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""outfit""]",The children needed  a(n)  %bell% for the event.,197221,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""tools""]",The carpenter used %elm% for the cabinet.,200459,condition_a,56a68b2d9ce1c0000cf89299,,
+main,"[""tribes""]",The man learned about the %mountains% in Africa.,204785,condition_a,56a68b2d9ce1c0000cf89299,,
