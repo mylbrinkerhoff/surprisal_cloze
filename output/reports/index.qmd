@@ -6,6 +6,7 @@ format:
     toc-location: right
     html-math-method: katex
     number-sections: true
+    code-fold: true
     other-links: 
       - text: OSF data raw
         href: https://osf.io/9vzk4/overview
@@ -14,19 +15,175 @@ csl: apa.csl
 ---
 
 ```{r}
- 
+#| echo: false
+#| output: false
+
+library(dplyr) # for data manipulation, graphic, and data wrangling
+library(tidyr) # for data manipulation
+library(readr) # loading in data
+library(stringr) # look for stuff in strings
+library(reshape2) # for data manipulation
+library(ggplot2) # for plotting
+library(here) # for creating pathways relative to the top-level directory
+library(remotes) # allows accessing github
+# library(joeyr) # needed for the find_outliers function
+library(ggokabeito) # colorblind friendly color based on Okabe-Ito scheme
+library(stringdist) # calculate the orthographic distance from word.
+library(yaml) # parses markdown documents
+library(knitr) # used to create tables in quarto documents
+
+# Loading in the dictionary
+dictionary <- readr::read_csv(here::here("data", "raw", "cmudict.csv"))
+
+dictionary <- dictionary |>
+  tidyr::unite(
+    pronunciation,
+    2:29,
+    sep = " ",
+    na.rm = TRUE
+  )
+
+# loading in the results
+# path to CSV files
+path <- here::here("data", "raw", "cloze_results")
+
+# List all CSV files in the directory
+csv_files <- list.files(path = path, pattern = "\\.csv$", full.names = TRUE)
+
+# Read all CSV files into a list of data frames
+data_list <- lapply(csv_files, read.csv)
+
+# Optionally, combine all data frames into one data frame
+combined_data <- do.call(rbind, data_list)
+
+cloze <- combined_data |>
+  dplyr::mutate(
+    target = as.character(stringr::str_extract_all(
+      text,
+      "(?<=%)[^%]+(?=%)",
+      simplify = TRUE
+    )),
+    response = stringr::str_replace_all(
+      response,
+      pattern = '\\[|\\]|"',
+      replacement = ''
+    )
+  ) |>
+  dplyr::select(
+    -c('study_id', 'session_id')
+  ) |>
+  dplyr::filter(block == "main") |>
+  dplyr::mutate(
+    response = stringr::str_to_lower(response),
+    response = stringr::str_replace_all(response, "[[:punct:]]", ""),
+    target = stringr::str_to_lower(target),
+    in_dictionary = response %in% dictionary$entry,
+    lev_dist = stringdist::stringdist(response, target, method = "lv")
+  )
 ```
 
-### Introduction
+## Introduction
 
 This page describes the results of a Cloze task, which is a technique in psycholinguistic studies to test for the predictability of words given a specific context [@snellReadersAreParallel2019; @miraultAlgorithmAnalyzingCloze2021]. This task was used to help compare the predictability of the target words used in a reading task about the role surprisal has on the pronunciation of t-glottalization and strengthening [@brinkerhoffTglottalizationStrengtheningAmerican2025]. 
 
-### Data
-#### Sentences
+## Methods
+### Sentences
 
-The 
+The sentences used in the cloze task were identical to the sentences used in the reading task from @brinkerhoffTglottalizationStrengtheningAmerican2025. The sentences were constructed for thirty target words in two different conditions. The words were selected from three phonological construction: (i) 10 words with word final /tn/ clusters, (ii) 10 words with the FAIL vowel precedinging a word final lateral, e.g., /e͡ɪl/, and (iii) 10 words with the FELL vowel preceding a word final lateral, e.g., /ɛl/. This wors were selected because of their claimed status as dialectal markers in Utahn English. These thirty words were placed in sentences constructed to minipulate the infomation load of the target word. The conditions were high information load and low information load.  
 
-### References
+```{r}
+# Unique ids for each sentence as they appear in the experiment, check if the entry is the dictionary
+responses <- cloze |>
+  dplyr::mutate(
+    sentence_id = match(text, unique(text)),
+    in_dictionary = response %in% dictionary$entry
+  )
+
+# Dataframe showing each sentence with its sentence_id
+sentences <- responses |>
+  dplyr::select(sentence_id, text) |>
+  dplyr::distinct() |> 
+  dplyr::mutate(
+    info_load = c(
+      "low",
+      "high",
+      "high",
+      "low",
+      "high",
+      "low",
+      "high",
+      "low",
+      "low",
+      "high",
+      "high",
+      "low",
+      "low",
+      "high",
+      "high",
+      "low",
+      "high",
+      "low",
+      "high",
+      "high",
+      "low",
+      "high",
+      "low",
+      "low",
+      "low",
+      "low",
+      "high",
+      "high",
+      "low",
+      "high",
+      "high",
+      "high",
+      "high",
+      "high",
+      "high",
+      "low",
+      "low",
+      "high",
+      "high",
+      "high",
+      "low",
+      "high",
+      "low",
+      "low",
+      "low",
+      "low",
+      "low",
+      "high",
+      "low",
+      "low",
+      "low",
+      "low",
+      "low",
+      "low",
+      "high",
+      "high",
+      "high",
+      "low",
+      "high",
+      "high"
+    )
+  )
+```
+::: {.panel-tabset}
+
+## Sentences from randomization A with id and information load
+```{r}
+knitr::kable(sentences[1:30,])
+```
+
+## Sentences from randomization B with id and information load
+```{r}
+knitr::kable(sentences[31:60,])
+```
+
+Sentences used in the cloze task their unique identification numbers
+:::
+
+## References
 
 ::: {#refs} 
 :::
