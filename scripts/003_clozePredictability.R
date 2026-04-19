@@ -26,6 +26,11 @@ sentences <- responses |>
   dplyr::distinct()
 
 # Calculate the Levenshtein distance from the dictionary entry
+# 0 = exact match;
+# 1 = minor spelling difference,
+# 2 = major spelling or morphological difference,
+# 3 or more = not related
+
 # generate distance matrix
 dist_mat <- stringdist::stringdistmatrix(
   responses$response,
